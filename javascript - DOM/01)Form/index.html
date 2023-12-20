@@ -15,7 +15,7 @@
 <body class="bg-teal-800 ">
 
   <div class="max-w-2xl mx-auto bg-gray-200 bg-opacity-90 shadow-2xl m-10 px-10 py-5 rounded-lg " >
-    <form action="" method="get" id="form-container">
+    <form action="" method="get" id="form-container" name="Souvenir-details">
       <div class="flex justify-center text-center gap-x-4 ">
         <h1 class="text-fuchsia-900 font-black text-center ">SOUVENIR DETAILS</h1>
         <a href="https://github.com/MUTHUAKALYA/cyberdude-challenges" target="_blank">
@@ -28,38 +28,66 @@
       </div>
       <div class=" form-div">
         <label for="studentname" class="font-semibold">Student Name</label>
-        <input type="text" placeholder="Your full Name" class=" form-input" id="studentname" >
+        <input type="text" placeholder="Your full Name" class=" form-input" id="studentname" name="studentname">
+        <!-- <div class="text-red-700 mt-3" id="first-error">
+          <span >This field is required</span> -->
+        <!-- </div> --> 
       </div>
       <div class="form-div">
         <label for="register-no" class="font-semibold">Register Number</label>
-        <input type="text" placeholder="Your register number" class="form-input" id="register-no">
+        <input type="text" placeholder="Your register number" class="form-input" id="register-no" name="register">
+        <!--  <div class="text-red-700 mt-3 " id="second-error">
+           <span >This field is required</span> 
+        </div>  -->
       </div>
       <div class="form-div">
         <label for="dob" class="font-semibold">Date of Birth</label>
-        <input type="text" placeholder="Your date of birth" class="form-input" id="dob">
+        <input type="text" placeholder="Your date of birth" class="form-input" id="dob" name="dob">
+        <!-- <div class="text-red-700 mt-3 " id="third-error">
+          <span >This field is required</span>
+        </div> -->
       </div>
       <div class="form-div">
         <label for="mobile-no" class="font-semibold">Mobile No</label>
-        <input type="number" placeholder="Your mobile number" class="form-input" id="mobile-no">
+        <input type="number" placeholder="Your mobile number" class="form-input" id="mobile-no" name="mobile">
+        <!-- <div class="text-red-700 mt-3" id="fourth-error">
+          <span >This field is required</span>
+        </div> -->
       </div>
       <div class="form-div">
         <label for="gmail" class="font-semibold">Gmail Id</label>
-        <input type="email" placeholder="Your gmail id" class="form-input" id="gmail">
+        <input type="email" placeholder="Your gmail id" class="form-input" id="gmail" name="gmail">
+        <!-- <div class="text-red-700 mt-3" id="fifth-error">
+          <span >This field is required</span>
+        </div> -->
       </div>
       <div class="form-div">
         <label for="Address" class="font-semibold">Address</label>
-        <input type="text" placeholder="Your address" class="form-input" id="Address">
+        <input type="text" placeholder="Your address" class="form-input" id="Address" name="Address">
+        <!-- <div class="text-red-700 mt-3 " id="sixth-error">
+          <span >This field is required</span>
+        </div> -->
       </div>
       <div class="form-div">
         <label for="District" class="font-semibold">District</label>
-        <input type="text" placeholder="Your district" class="form-input" id="District">
+        <input type="text" placeholder="Your district" class="form-input" id="District" name="District">
+        <!-- <div class="text-red-700 mt-3 " id="seventh-error">
+          <span >This field is required</span>
+        </div> -->
       </div>
       <div class="flex justify-center" >
         <button type="submit" id="submit-button"
           class="p-2 w-[20%] text-center my-2 rounded-lg bg-fuchsia-950 text-gray-50 hover:font-bold hover:bg-fuchsia-900">Submit</button>
       </div>
     </form>
+    <div id="output" class="p-4 bg-gray-300 rounded">
+      <h2 class="text-bold text-fuchsia-950 font-black mb-5 text-center ">REVIEW YOUR DETAILS</h2>
+      <div id="outputContent" class="my-8 p-4  justify-content bg-gray-200"></div>
+      <button class="bg-fuchsia-950 text-gray-50 p-2 rounded w-full hover:bg-fuchsia-900">Submit</button>
+    </div>
+    
   </div>
+  
 </body>
 
 </html>
