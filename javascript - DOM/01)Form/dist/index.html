@@ -8,14 +8,21 @@
   <title>Souvenir Details - 2023</title>
   <!-- adding stylesheets -->
   <!-- adding js file -->
-  <script type="module" crossorigin src="./assets/index-4vfMzaB2.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-YWwOROcH.css">
+  <script type="module" crossorigin src="./assets/index-idLVuPg5.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-wwfrjbJf.css">
 </head>
 
-<body class="bg-teal-800 ">
-
-  <div class="max-w-2xl mx-auto bg-gray-200 bg-opacity-90 shadow-2xl m-10 px-10 py-5 rounded-lg " >
+<body class="bg-teal-800 mx-auto max-w-2xl m-10">
+  <!-- creating error message div -->
+  <div class="bg-red-200 text-red-700 p-2 mb-5 text-center rounded-lg" id="errorMessage">
+    <p>Please fill out all the input fields</p>
+  </div>
+  
+  <!-- creating form container -->
+  <div class=" bg-gray-200 bg-opacity-90 shadow-2xl  px-10 py-5 rounded-lg " >
+    <!-- creating form -->
     <form action="" method="get" id="form-container" name="Souvenir-details">
+      <!-- form heading div -->
       <div class="flex justify-center text-center gap-x-4 ">
         <h1 class="text-fuchsia-900 font-black text-center ">SOUVENIR DETAILS</h1>
         <a href="https://github.com/MUTHUAKALYA/cyberdude-challenges" target="_blank">
@@ -26,63 +33,60 @@
           </svg>
         </a>
       </div>
+      <!-- student name div-->
       <div class=" form-div">
         <label for="studentname" class="font-semibold">Student Name</label>
         <input type="text" placeholder="Your full Name" class=" form-input" id="studentname" name="studentname">
        
       </div>
+      <!-- register number  div -->
       <div class="form-div">
         <label for="register-no" class="font-semibold">Register Number</label>
         <input type="text" placeholder="Your register number" class="form-input" id="register-no" name="register">
-        <!--  <div class="text-red-700 mt-3 " id="second-error">
-           <span >This field is required</span> 
-        </div>  -->
+        
       </div>
+      <!-- date of birth div -->
       <div class="form-div">
         <label for="dob" class="font-semibold">Date of Birth</label>
         <input type="text" placeholder="Your date of birth" class="form-input" id="dob" name="dob">
-        <!-- <div class="text-red-700 mt-3 " id="third-error">
-          <span >This field is required</span>
-        </div> -->
+       
       </div>
+      <!-- mobile number div -->
       <div class="form-div">
         <label for="mobile-no" class="font-semibold">Mobile No</label>
         <input type="number" placeholder="Your mobile number" class="form-input" id="mobile-no" name="mobile">
-        <!-- <div class="text-red-700 mt-3" id="fourth-error">
-          <span >This field is required</span>
-        </div> -->
+       
       </div>
+      <!-- gmail div -->
       <div class="form-div">
         <label for="gmail" class="font-semibold">Gmail Id</label>
         <input type="email" placeholder="Your gmail id" class="form-input" id="gmail" name="gmail">
-        <!-- <div class="text-red-700 mt-3" id="fifth-error">
-          <span >This field is required</span>
-        </div> -->
+       
       </div>
+      <!-- address div -->
       <div class="form-div">
         <label for="Address" class="font-semibold">Address</label>
         <input type="text" placeholder="Your address" class="form-input" id="Address" name="Address">
-        <!-- <div class="text-red-700 mt-3 " id="sixth-error">
-          <span >This field is required</span>
-        </div> -->
+        
       </div>
+      <!-- district div -->
       <div class="form-div">
         <label for="District" class="font-semibold">District</label>
         <input type="text" placeholder="Your district" class="form-input" id="District" name="District">
-        <!-- <div class="text-red-700 mt-3 " id="seventh-error">
-          <span >This field is required</span>
-        </div> -->
       </div>
+      <!-- submit button -->
       <div class="flex justify-center" >
         <button type="submit" id="submit-button"
           class="p-2 w-[20%] text-center my-2 rounded-lg bg-fuchsia-950 text-gray-50 hover:font-bold hover:bg-fuchsia-900">Submit</button>
       </div>
     </form>
+    <!-- creating review details div -->
     <div id="output" class="p-4 bg-gray-300 rounded">
       <h2 class="text-bold text-fuchsia-950 font-black mb-5 text-center ">REVIEW YOUR DETAILS</h2>
       <div id="outputContent" class="my-8 p-4  justify-content bg-gray-200"></div>
       <button class="bg-fuchsia-950 text-gray-50 p-2 rounded w-full hover:bg-fuchsia-900" id="secondSubmit">Submit</button>
     </div>
+    <!-- creating thankyou div -->
     <div id="thankyou" class="p-4 bg-gray-300 rounded">
       <h2 class="text-bold text-fuchsia-950 font-black mb-5 text-center ">Thankyou for your response😊</h2>
       
