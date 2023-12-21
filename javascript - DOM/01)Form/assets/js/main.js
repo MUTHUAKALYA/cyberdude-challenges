@@ -14,6 +14,8 @@ const formContainerEl = document.forms["Souvenir-details"]
 const submitButtonEl=document.getElementById("submit-button");
 const outputContentEl=document.getElementById("outputContent")
 const outputEl = document.getElementById("output");
+const studentElerror=document.getElementById("studentElerror")
+
 
 document.addEventListener("DOMContentLoaded",()=>{
     outputEl.style.display="none";
@@ -28,8 +30,11 @@ submitButtonEl.addEventListener("click",(e)=>{
     const gmailEls=formContainerEl.elements.gmail.value;
     const addressEls=formContainerEl.elements.Address.value;
     const districtEls=formContainerEl.elements.District.value;
-    console.log(registerNumEls)
-    const uiOutput = `
+    //validation conditions
+    
+
+    if((studentNameEls.length>0 && registerNumEls.length>0 && dobEls.length>0 && mobileNumberEls.length>0 && gmailEls.length>0 && addressEls.length>0 && districtEls.length>0)){
+        const uiOutput = `
             <p><strong>Full Name</strong> : ${studentNameEls}</p>
             <p><strong>Register Number</strong> : ${registerNumEls}</p>
             <p><strong>DOB</strong> : ${dobEls}</p>
@@ -41,6 +46,9 @@ submitButtonEl.addEventListener("click",(e)=>{
         outputContentEl.innerHTML = uiOutput;
         formContainerEl.style.display="none"
         outputEl.style.display="block";
+    }
+
+    
 })
 
 
