@@ -26,9 +26,18 @@ submitButtonEl.addEventListener("click",(e)=>{
     const gmailEls=formContainerEl.elements.gmail.value;
     const addressEls=formContainerEl.elements.Address.value;
     const districtEls=formContainerEl.elements.District.value;
+
+    const studentnameEl =document.getElementById("firstDiv");
     //validation conditions
     if((studentNameEls.length>0 && registerNumEls.length>0 && dobEls.length>0 && mobileNumberEls.length>0 && gmailEls.length>0 && addressEls.length>0 && districtEls.length>0)){
         errorMessageEl.style.display="none";
+        if(!(studentNameEls.length>2 && studentNameEls.length<20)){
+            const warningMsg = document.createElement("span")
+            warningMsg.textContent = "Invaild input"
+            warningMsg.setAttribute("class","my-2 text-red-700")
+            studentnameEl.append(warningMsg)
+
+        }
         const uiOutput = `
             <p><strong>Full Name</strong> : ${studentNameEls}</p>
             <p><strong>Register Number</strong> : ${registerNumEls}</p>
