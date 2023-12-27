@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3523/3523407.png" type="image/x-icon">
   <title>Souvenir Details - 2023</title>
   <!-- adding stylesheets -->
   <link rel="stylesheet" href="./assets/css/style.css">
@@ -13,7 +14,7 @@
 
 <body class="bg-teal-800 mx-auto max-w-2xl m-10">
   <!-- creating error message div -->
-  <div class="bg-red-200 text-red-700 p-2 mb-5 text-center rounded-lg" id="errorMessage">
+  <div class="bg-red-200 text-red-700 p-2 mb-5 text-center rounded-lg sticky top-0" id="errorMessage">
     <p>Please fill out all the input fields</p>
   </div>
   
@@ -35,43 +36,43 @@
       <!-- student name div-->
       <div class=" form-div" id="firstDiv">
         <label for="studentname" class="font-semibold">Student Name</label>
-        <input type="text" placeholder="Your full Name" class=" form-input" id="studentname" name="studentname">
+        <input type="text" placeholder="Your full name" class=" form-input" id="studentname" name="studentname" required>
        
       </div>
       <!-- register number  div -->
       <div class="form-div">
         <label for="register-no" class="font-semibold">Register Number</label>
-        <input type="text" placeholder="Your register number" class="form-input" id="register-no" name="register">
+        <input type="text" placeholder="Your register number" class="form-input" id="register-no" name="register" required>
         
       </div>
       <!-- date of birth div -->
       <div class="form-div">
         <label for="dob" class="font-semibold">Date of Birth</label>
-        <input type="text" placeholder="Your date of birth" class="form-input" id="dob" name="dob">
+        <input type="text" placeholder="Your date of birth" class="form-input" id="dob" name="dob" required>
        
       </div>
       <!-- mobile number div -->
       <div class="form-div">
         <label for="mobile-no" class="font-semibold">Mobile No</label>
-        <input type="number" placeholder="Your mobile number" class="form-input" id="mobile-no" name="mobile">
+        <input type="number" placeholder="Your mobile number" class="form-input" id="mobile-no" name="mobile" required>
        
       </div>
       <!-- gmail div -->
       <div class="form-div">
         <label for="gmail" class="font-semibold">Gmail Id</label>
-        <input type="email" placeholder="Your gmail id" class="form-input" id="gmail" name="gmail">
+        <input type="email" placeholder="Your gmail id" class="form-input" id="gmail" name="gmail" required>
        
       </div>
       <!-- address div -->
       <div class="form-div">
         <label for="Address" class="font-semibold">Address</label>
-        <input type="text" placeholder="Your address" class="form-input" id="Address" name="Address">
+        <input type="text" placeholder="Your address" class="form-input" id="Address" name="Address" required>
         
       </div>
       <!-- district div -->
       <div class="form-div">
         <label for="District" class="font-semibold">District</label>
-        <input type="text" placeholder="Your district" class="form-input" id="District" name="District">
+        <input type="text" placeholder="Your district" class="form-input" id="District" name="District" required>
       </div>
       <!-- submit button -->
       <div class="flex justify-center" >
@@ -82,12 +83,12 @@
     <!-- creating review details div -->
     <div id="output" class="p-4 bg-gray-300 rounded">
       <h2 class="text-bold text-fuchsia-950 font-black mb-5 text-center ">REVIEW YOUR DETAILS</h2>
-      <div id="outputContent" class="my-8 p-4  justify-content bg-gray-200"></div>
-      <button class="bg-fuchsia-950 text-gray-50 p-2 rounded w-full hover:bg-fuchsia-900" id="secondSubmit">Submit</button>
+      <div id="outputContent" class="my-8 p-4  justify-content bg-gray-200 rounded-md"></div>
+      <button class="bg-fuchsia-950 text-gray-50 p-2 rounded-md w-full hover:bg-fuchsia-900 hover:font-bold" id="secondSubmit">Submit</button>
     </div>
     <!-- creating thankyou div -->
-    <div id="thankyou" class="p-4 bg-gray-300 rounded">
-      <h2 class="text-bold text-fuchsia-950 font-black mb-5 text-center ">Thankyou for your response😊</h2>
+    <div id="thankyou" class="p-4 bg-gray-300 rounded flex justify-center items-center">
+      <h2 class="text-bold text-fuchsia-950 font-black  text-center ">Thankyou for your response 😊</h2>
       
     </div>
   </div>
