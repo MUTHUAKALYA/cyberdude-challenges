@@ -1,0 +1,67 @@
+
+[
+    {   
+    "registerNumber":1911085,
+    "firstName":"Muthu Akalya",
+    "lastname":"A",
+    "image":"./images/firstone.png",
+    "tutorName":"Vivek anand",
+    "department":"ECE",
+    "DayScholar":true,
+    "personalDetails": {
+        "mobileNumber": "8634906734",
+        "mailId":"akalya@gmail.com",
+        "address":"Thoothukudi"
+
+    },
+    "languagesKnown":["Tamil","English","Telugu"]
+},
+{   
+    "registerNumber":1911086,
+    "firstName":"Samyuktha",
+    "lastname":"R",
+    "image":"./images/secondone.png",
+    "tutorName":"Kaleesh",
+    "department":"ECE",
+    "DayScholar":true,
+    "personalDetails": {
+        "mobileNumber": "7312563456",
+        "mailId":"samyuktha@gmail.com",
+        "address":"Madurai"
+
+    },
+    "languagesKnown":["Tamil","English","korean"]
+},
+{   
+    "registerNumber":1911087,
+    "firstName":"Anitha",
+    "lastname":"G",
+    "image":"./images/thirdone.png",
+    "tutorName":"Kaleesh",
+    "department":"ECE",
+    "DayScholar":true,
+    "personalDetails": {
+        "mobileNumber": "7543785990",
+        "mailId":"anitha@gmail.com",
+        "address":"Kanyakumari"
+
+    },
+    "languagesKnown":["Tamil","English","Malayalam"]
+},
+{   
+    "registerNumber":191108,
+    "firstName":"Uma Raja Selvi",
+    "lastname":"R",
+    "image":"./images/lastone.png",
+    "tutorName":"Cammilus",
+    "department":"ECE",
+    "DayScholar":true,
+    "personalDetails": {
+        "mobileNumber": "9994543267",
+        "mailId":"umarajaselvi@gmail.com",
+        "address":"Thoothukudi"
+
+    },
+    "languagesKnown":["Tamil","English","urudu"]
+}
+]

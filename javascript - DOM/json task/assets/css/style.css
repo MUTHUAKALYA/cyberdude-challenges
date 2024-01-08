@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .divel{
+    @apply grid grid-cols-2
+} */
+
+.spanel{
+    @apply font-bold
+}
+
+.imgel{
+    @apply w-[25%] 
+}
+.textel{
+    @apply bg-gray-100 w-[75%] flex flex-col p-5
+}
