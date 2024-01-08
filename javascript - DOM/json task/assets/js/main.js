@@ -5,7 +5,7 @@ console.log(detailsblockEl);
 
 details.forEach((studentDetails)=>{
     const cardcontainerEl = document.createElement("div");
-    cardcontainerEl.className = "flex bg-gray-200 p-10 ";
+    cardcontainerEl.className = "containerel ";
     cardcontainerEl.innerHTML = `
     <div class="imgel">
     <img src="${studentDetails.image}" alt="firstpersone_image">
