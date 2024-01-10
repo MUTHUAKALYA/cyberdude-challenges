@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.cardel {
+   @apply bg-white w-[300px] p-5 flex flex-col items-center rounded-lg shadow-md bg-opacity-80
+}
+.username {
+    @apply font-bold mt-5 text-xl text-pink-700
+}
+.imgel {
+   @apply w-[150px] h-[150px] rounded-full 
+}
+.role {
+    @apply text-gray-900 font-medium 
+}
+.location {
+    @apply text-gray-600 font-normal text-sm
+}
+.button {
+    @apply px-3 py-1 bg-[#210440] text-white font-semibold my-3 rounded-xl
+}
