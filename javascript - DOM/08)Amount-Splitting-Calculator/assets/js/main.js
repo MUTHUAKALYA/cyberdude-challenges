@@ -147,7 +147,7 @@ function getSplitAmountData() {
                     amountInputEl.value / addPeopleInputEl.value
                   }</td>
 
-                  <td class="py-2 px-4 border border-darkPrimaryColor"> <button type="submit" class=" deleteBtn px-3 py-2 rounded bg-pink-800 hover:bg-pink-900 text-gray-100 font-bold">Delete </button>
+                  <td class="py-2 px-4 border border-darkPrimaryColor"> <button type="submit" class=" deleteBtn px-3 py-2 rounded bg-darkPrimaryColor hover:bg-lightPrimaryColor hover:text-black text-gray-100 font-bold">Delete </button>
                   </td>
                  
                 </tr>                  
