@@ -1,27 +1,34 @@
 const quoteEl = document.querySelector("#quote");
 const apiUrl = "https://api.adviceslip.com/advice";
 
-const buttonEl = document.querySelector("#button")
+const buttonEl = document.querySelector("#button");
 buttonEl.style.display = "none";
 
 // reload btn
 buttonEl.addEventListener("click", () => {
-    window.location.href = "./";
+  window.location.href = "./";
 });
 
-// async function  
+// async function
 async function getAdvicesData() {
-    try {
-        const response = await fetch(apiUrl);
-        const jsonData = await response.json();
-        return jsonData;
-    } catch (error) {
-console.error("Network error: ", error);
-    }
+  try {
+    const response = await fetch(apiUrl);
+    const jsonData = await response.json();
+    return jsonData;
+  } catch (error) {
+    console.error("Network error: ", error);
+  }
 }
 
-const adviceData = await getAdvicesData();
-quoteEl.textContent = adviceData.slip.advice;
-
-// reload btn view
+async function showdata() {
+  const adviceData = await getAdvicesData();
+  quoteEl.textContent = adviceData.slip.advice;
+  // reload btn view
 buttonEl.style.display = "block";
+}
+
+showdata();
+
+
+
+

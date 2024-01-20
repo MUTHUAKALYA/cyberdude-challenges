@@ -4,7 +4,9 @@ const buttonEl = document.getElementById("searchButton");
 buttonEl.addEventListener("click", (e) => {
   e.preventDefault();
   const videoID = inputEl.value;
+  videoIDEl.contains("v=")
   //   trimming the videoid of the youtube url
+
 
   //playlist browser url -https://www.youtube.com/watch?v=4DkNCgUXbig&list=RDEMlr0BH1pM2cputhVM9u_tuQ&start_radio=1&rv=22bLNq6iCjU
     const videoIDEl = videoID.slice(videoID.indexOf("?v=")+3, videoID.indexOf("&"))
@@ -50,3 +52,6 @@ buttonEl.addEventListener("click", (e) => {
 // console.log(yvideoId)
 
 
+var text = 'this is some sample text';
+var values = ['sample', 'anything'];
+const result = contains(text,values)
