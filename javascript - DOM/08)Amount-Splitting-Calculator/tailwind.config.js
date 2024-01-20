@@ -1,11 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
+    "./index.html","./about.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        Bree: ['Bree Serif', 'serif']
+      },
+      colors:{
+        darkPrimaryColor:'#314247',
+        darkSecondaryColor:'#647973',
+        lightPrimaryColor:'#CCA4A6',
+        lightSecondaryColor:'#F7F7F7'
+      }
+     
+    },
   },
   plugins: [],
 }
