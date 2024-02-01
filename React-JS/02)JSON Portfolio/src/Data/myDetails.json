@@ -1,0 +1,48 @@
+[
+  {
+    "FullName": "Muthu Akalya",
+    "Profession": "Web Developer",
+    "About": "Aspiring web developer passionate about creating top-notch digital experiences. Eager to apply my skills in both front-end and back-end technologies to build user-friendly websites. Committed to innovation and continuous learning, I aim to contribute to dynamic projects and deliver high-quality, scalable solutions that meet client objectives.",
+    "SocialMedia": {
+      "Whatsapp": "tel:+91 9361596504",
+      "GitHub": "https://github.com/MUTHUAKALYA",
+      "Gmail": "mailto:muthuakalyaa@gmail.com",
+      "Instagram": "_akal_ya_a_"
+    },
+    "EducationUg": {
+      "Name": "National Engineering College",
+      "Degree": "B.E - Electronics and Communication Engineering",
+      "Year": "2023, Completed"
+    },
+
+    "School": {
+      "Name": "Kammavar Girl's Higher Secondary School",
+      "HSC": "HSC - 75%",
+      "SSLC": "SSLC - 95%"
+    },
+    "Experience": {
+      "Year": ["2023 - present"],
+      "CompanyName": [
+        "Cyberdude Networks Pvt Ltd"
+      ],
+      "Position": [
+        "Junior Fullstack Engineer"
+      ]
+    },
+
+    "Skills": [
+      {
+        "Skill": "HTML",
+        "Percentage": "85%"
+      },
+      {
+        "Skill": "CSS",
+        "Percentage": "85%"
+      },
+      {
+        "Skill": "Java Script",
+        "Percentage": "65%"
+      }
+    ]
+  }
+]
