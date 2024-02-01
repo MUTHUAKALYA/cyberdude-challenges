@@ -33,7 +33,7 @@ const Cards = () => {
   console.log(postInfo);
   const blogPostTemplate = postInfo.map((post) => {
     return (
-      <div className="mb-5 bg-gray-100 px-5 py-5 rounded-lg ">
+      <div className="mb-5 bg-gray-100 p-10 rounded-lg max-w-2xl">
         <img
           src={post.img}
           alt="pilates image" className="w-[stretch]"

@@ -1,16 +1,16 @@
 const Fitness = ()=>{
     return (
-        <div className="max-w-6xl mx-auto  my-6 bg-gray-100 px-10 py-10 rounded-lg ">
-        <h1 className="font-black text-darkPrimary text-2xl my-5">
+        <div className="max-w-2xl mx-auto  bg-gray-100 px-7 py-10 rounded-lg ">
+        <h1 className="font-black text-darkPrimary text-2xl text-justify ">
         Slimming Down with Pilates: A Gentle Path to Weight Loss
         </h1>
-        <p className="text-justify">
+        <p className="text-justify py-5">
         Losing weight doesn't always mean high-intensity workouts. Pilates, known for its low-impact exercises, offers a unique approach to weight loss, focusing on building lean muscle, boosting metabolism, and fostering a mind-body connection
         </p>
         <div className="flex justify-center py-8">
           <img
             src="https://assets-global.website-files.com/620d593c0cff284f05f9cb95/625091a96cb932f79c70dd17_PS%20Pilates%20Studio%20Highlands%20Colorado%20Denver.jpg"
-            className="w-[50%]"
+            className="w-[100%]"
           />
         </div>
         

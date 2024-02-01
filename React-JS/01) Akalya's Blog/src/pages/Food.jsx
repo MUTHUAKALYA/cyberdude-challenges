@@ -1,17 +1,17 @@
 const Food = ()=>{
     return (
         
-              <div className="max-w-6xl mx-auto  my-6 bg-gray-100 px-10 py-10 rounded-lg ">
-                <h1 className="font-black text-darkPrimary text-2xl my-5">
-                Fueling Your Body Right: A Guide to Balanced Food Habits:
+              <div className="max-w-2xl mx-auto  bg-gray-100 px-7 py-10 rounded-lg ">
+                <h1 className="font-black text-darkPrimary text-2xl  text-justify">
+                Fueling Your Body Right: A Guide to Balanced Food Habits
                 </h1>
-                <p className="text-justify">
+                <p className="text-justify my-5">
                 Maintaining a balanced diet is essential for overall health and well-being. The food we consume plays a crucial role in providing our bodies with the necessary nutrients, energy, and building blocks for optimal functioning. In this blog, we will explore the key principles of balanced food habits that can help you achieve and sustain a healthier lifestyle.
                 </p>
                 <div className="flex justify-center py-8">
                   <img
                     src="https://www.enzazaden.com//us/-/media/images/enza-zaden/list-images-640x480/01_products-services/02-trends-and-inspiration/2020/li_2020_healthy-food-heart.jpg"
-                    className="w-[50%]"
+                    className="w-[full]"
                   />
                 </div>
                 
