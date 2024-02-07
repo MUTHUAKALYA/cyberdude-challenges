@@ -3,7 +3,7 @@ import Button from '../Components/Button'
 
 const ButtonsPage = () => {
   return (
-    <div className='bg-gray-100 px-5 py-10 max-w-2xl flex flex-col justify-center items-center rounded-lg m-5 space-y-5'>
+    <div className='bg-gray-100 px-5 py-10 max-w-2xl flex flex-col justify-center items-center rounded-lg my-10 space-y-5 mx-auto'>
         <h2 className='font-semibold  text-lg '>Buttons</h2>
    <div>
    <Button color="bg-blue-500" buttonName="Primary"/>
