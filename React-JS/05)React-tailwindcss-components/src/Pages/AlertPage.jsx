@@ -3,7 +3,7 @@ import Alert from '../Components/Alert'
 
 const AlertPage = () => {
   return (
-    <div className='max-w-2xl p-10'>
+    <div className='max-w-2xl px-5 py-10 bg-gray-100 rounded-lg m-5'>
         <h2 className='text-center font-semibold text-xl'>Buttons</h2>
        <Alert color="bg-blue-200" border="border-blue-400">
        <p>A simple Primary Alert </p>
