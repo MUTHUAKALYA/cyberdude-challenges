@@ -1,0 +1,45 @@
+[
+    {
+        "id":1,
+        "location":"Coorg",
+        "placesToVisit":[
+            {
+                "placeName":"Mandalpatti Peak",
+                "aboutThePlace":"Mandalpatti, crowned at a height of 1600m, is situated at around 18 km from Madikeri, Coorg. Gradually evolving as one of the best tourist spots in Coorg, this fascinating trail is located en route to Abbey Falls."
+            },
+            {
+                
+                "placeName":"Abbey Falls",
+                "aboutThePlace":"Abbey Falls is in Kodagu, in the Western Ghats in Karnataka. It is located 8 km from the Madikeri, 122 km from Mysore, 144 km from Mangalore and 268 km from Bangalore. The river is part of the early reaches of the river Kaveri. Flow is much higher during the monsoon season."
+            },
+            {
+                
+                "placeName":"Pushpagiri Wildlife Sanctuary",
+                "aboutThePlace":"Pushpagiri Wildlife Sanctuary is one of 21 Wildlife Sanctuaries of India's Karnataka state. This sanctuary is located in Somwarpet taluk of the Kodagu district. It is home to rare and endangered birdlife. The Kadamakkal reserve forest is a part of the sanctuary. Pushpagiri is the highest peak in it. "
+            }
+        ]
+
+    },
+    {
+        "id":2,
+        "location":"Munnar",
+        "placesToVisit":[
+            {
+                "placeName":"Chokramudi Peak",
+                "aboutThePlace":"Enjoying an elevation of 2,100 metres above the sea level, this peak is as mesmerising as you can expect it to be. Offering a short and convenient trek which can be easily completed in a day’s time, this hill houses the exemplary Shoals Forest."
+            },
+            {
+                
+                "placeName":"Lakkom Water Falls",
+                "aboutThePlace":"Located at a distance of about 30 km from Munnar, this waterfall originates from the Eravikulam stream. The stunning white silk-like look of the falls quenches your thirst for a picturesque scenery. There is a small shop situated beside this waterfall which offers some scrumptious delights from the Malabar cuisine!"
+            },
+            {
+                
+                "placeName":"Lockhart Gap",
+                "aboutThePlace":"This picturesque spot derives its name from the heart-shaped gap that has naturally formed between two adjacent mountains. And it’s not just the presence of clouds in this valley which will surprise you, but also the refreshing solitude, accompanied by the vague scent of fresh tea!"
+            }
+        ]
+
+    }
+    
+]
