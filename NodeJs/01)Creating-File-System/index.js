@@ -1,6 +1,6 @@
 //1) Create a json file with the places you wanna to visit ✅
 //2) creating a folder named places ✅
-//3) Creating folders for the location available in json file 
+//3) Creating folders for the location available in the json file ✅
 
 const fs = require("fs");
 const favPlaces = require("./data/favouritePlaces.json")
