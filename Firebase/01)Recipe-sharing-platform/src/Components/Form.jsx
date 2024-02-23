@@ -3,18 +3,31 @@ import FormInput from "./FormInput";
 import Button from "./Button";
 import SelectInput from "./SelectInput";
 
-
-
+import { collection, addDoc, setDoc, doc } from "firebase/firestore"; 
+import { useEffect } from "react";
+import { db } from "../firebase"; 
 
 const Form = () => {
   const { register, handleSubmit, reset } = useForm();
 
   const validSubmit = (data) => {
-    
+    // const querySnapshot = setDoc(doc(db,"foodrecipes",data.foodcategory),data)
    console.log(data)
+  const querySnapShot = addDoc(collection(db,data.foodcategory),data)
    reset();
   };
 
+ 
+  // useEffect(()=>{
+  //   async function settingDataIntoFirebase (){
+  //     await addDoc(collection(db,"categories"),{
+  //       firstname:"akalya",
+  //       lastname:"alagar",
+  //       bornedIn:2002
+  //     })
+  //   }
+  //   settingDataIntoFirebase()
+  // },[])
 
   return (
     <div className="bg-orange-300 bg-opacity-20 p-20 bg-newsletter-image h-[800px] bg-contain">
