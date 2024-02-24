@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
@@ -6,7 +7,7 @@ const Header = () => {
 
         
           <ul className='flex items-center justify-center space-x-8 font-extrabold text-lg text-white'>
-          <li> Recipe </li>
+          <Link to="/"><li> Home </li></Link>
            <li>About Us </li>
            <li>Contact</li>
           </ul>
