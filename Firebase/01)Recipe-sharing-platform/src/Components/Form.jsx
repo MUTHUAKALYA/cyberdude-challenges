@@ -13,6 +13,7 @@ const Form = () => {
   const validSubmit = (data) => {
     // const querySnapshot = setDoc(doc(db,"foodrecipes",data.foodcategory),data)
    console.log(data)
+   alert(`Thank you for sharing ${data.recipename} recipe 😊`)
   const querySnapShot = addDoc(collection(db,data.foodcategory),data)
    reset();
   };
@@ -57,7 +58,7 @@ const Form = () => {
           <FormInput
             name="duration"
             placeholder={"Enter time duration"}
-            register={register("emailid")}
+            register={register("duration")}
           />
           <FormInput
             name="ingridents"
