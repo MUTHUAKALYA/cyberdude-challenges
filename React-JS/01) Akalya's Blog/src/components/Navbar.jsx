@@ -5,13 +5,13 @@ const Navbar = ()=>{
         <div>
             <header className="bg-darkPrimary ">
                 <nav className="flex flex-col sm:flex-row justify-center gap-y-5  items-center sm:justify-between text-lightSecondary  py-6 px-10 text-md font-semibold sm:font-bold">
-                    <h1>Akalya Blogs</h1>
+                    <h1 className="font-bold text-xl">Akalya Blogs</h1>
                     
-                    <ul className="flex gap-x-5 sm:gap-x-10  ">
+                    <ul className="flex gap-x-5 sm:gap-x-10 font-semibold ">
                         <li><Link to="/" className="hover:text-white" title="View - HomePage">Home</Link></li>
-                        <li><Link to="/blogs" className="hover:text-lightSecondary" title="View - Blogs">Blogs</Link></li>
-                        <li><Link to="/about" className="hover:text-lightSecondary" title="View-About">About</Link></li>
-                        <li><a href="https://github.com/MUTHUAKALYA"className="hover:text-lightSecondary" title="View-Github" target="_blank">GitHub</a></li>
+                        <li><Link to="/blogs" className="hover:text-white" title="View - Blogs">Blogs</Link></li>
+                        {/* <li><Link to="/about" className="hover:text-white" title="View-About">About</Link></li> */}
+                        <li><a href="https://github.com/MUTHUAKALYA/cyberdude-challenges/tree/main/React-JS/01)%20Akalya's%20Blog" className="hover:text-white" title="View-Github" target="_blank">GitHub</a></li>
                     </ul>
                     
                     {/* <div className="flex gap-x-5 items-center">

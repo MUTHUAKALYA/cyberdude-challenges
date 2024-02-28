@@ -4,13 +4,13 @@ const Footer = ()=>{
         <>
         <footer className="bg-lightSecondary">
             <section className="flex justify-between py-5 px-10 bg-darkPrimary text-white">
-                <h3>Akalya Blogs</h3>
+                <h3 className="font-bold text-xl">Akalya Blogs</h3>
                 <div>
-                    <ul className="flex gap-x-5">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/blogs">Blogs</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><a href="https://github.com/MUTHUAKALYA" title="Contact Me" target="_blank">Contact</a></li>
+                    <ul className="flex gap-x-8 font-semibold">
+                        <li><Link to="/" className="hover:text-lightSecondary">Home</Link></li>
+                        <li><Link to="/blogs" className="hover:text-lightSecondary">Blogs</Link></li>
+                        {/* <li><Link to="/about" className="hover:text-lightSecondary">About</Link></li> */}
+                        <li><a href="https://github.com/MUTHUAKALYA" className="hover:text-lightSecondary" title="Contact Me" target="_blank">Contact</a></li>
                     </ul>
                 </div>
             </section>

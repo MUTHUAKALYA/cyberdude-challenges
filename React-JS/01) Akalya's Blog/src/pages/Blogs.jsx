@@ -10,9 +10,9 @@ const Blogs = () => {
         Here , you can find all the blogs about food , fitness, Beauty & more .
       </p> */}
       <ul className="flex flex-col gap-y-2">
-        <ol> <Link to="/Travel" className="hover:text-darkPrimary">1) A Weekend Trip To Coorg </Link></ol>
-        <ol><Link to="/Fitness" className="hover:text-darkPrimary">2) Fueling Your Body Right: A Guide to Balanced Food Habits ?</Link></ol>
-        <ol><Link t0="/Food" className="hover:text-darkPrimary">3) Slimming Down with Pilates: A Gentle Path to Weight Loss</Link></ol>
+        <ol> <Link to="/Travel" className="hover:text-darkPrimary underline ">1) A Weekend Trip To Coorg </Link></ol>
+        <ol><Link to="/Fitness" className="hover:text-darkPrimary underline">2) Fueling Your Body Right: A Guide to Balanced Food Habits ?</Link></ol>
+        <ol><Link t0="/Food" className="hover:text-darkPrimary underline">3) Slimming Down with Pilates: A Gentle Path to Weight Loss</Link></ol>
       </ul>
       
     </div>
