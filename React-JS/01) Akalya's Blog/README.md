@@ -19,7 +19,7 @@ Cyberdude Networks Pvt. Ltd Internship Project # 14 - **Akalya Blogs**.
 This project (Akalya Blogs) was assigned by Cyberdude Networks Pvt Ltd while I'm working as an Full Stack Engineer Inten. It is a React-based web application aimed at providing a platform for users to read and explore various blog posts categorized into travel, food, fitness, and beauty topics. It utilizes React Router DOM for navigation between different sections of the application. Check it out below **Live Link** below for your convenience. 
 ## Demo
 
-✨**Live Link is Here**:https://akalya-blog.netlify.app/
+✨**Live Link is Here**:https://akalya-blog-01-react-js.netlify.app/
 <br>
 <br>
 
