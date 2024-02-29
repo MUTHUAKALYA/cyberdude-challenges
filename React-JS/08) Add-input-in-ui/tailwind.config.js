@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        darkPrimary:"#B5BFA1",
+        darkSecondary:"#143109"
+      },
       fontFamily:{
         oswald: ["Oswald", "sans-serif"]
       }
