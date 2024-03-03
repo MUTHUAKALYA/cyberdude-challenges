@@ -6,7 +6,7 @@ Cyberdude Networks Pvt. Ltd Internship Project # 22 - **File System using Node.j
 - [File System using Node.js](#file-system-using-node.js)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
-  - [Demo](#demo)
+  - [Getting Started](#getting-started)
   - [Internship](#internship)
   - [Technologies Used](#technologies-used)
   - [Features](#features)
