@@ -199,7 +199,7 @@ function getAllTaskData() {
                   <td class="py-2 px-4 border border-pink-800">${
                     bookingData.tablePreference
                   }</td>
-                  <td class="py-2 px-4 border border-pink-800"> <button type="submit" class=" deleteBtn px-3 py-2 rounded bg-pink-800 hover:bg-pink-900 text-gray-100 font-bold">Delete </button>
+                  <td class="py-2 px-4 border border-pink-800"> <button type="submit" class=" deleteBtn px-3 py-2 rounded bg-pink-800 hover:bg-pink-900 text-gray-100 font-bold">Cancel </button>
                   </td>
                  
                 </tr>                  
