@@ -148,6 +148,7 @@ tableEl.addEventListener("click", function (e) {
     const existingBookingArray = JSON.parse(existingBookingData);
 
     // Remove the task corresponding to the clicked row index
+    alert("Are you sure wanna to cancel this reservation?")
     existingBookingArray.splice(rowIndex, 1);
 
     // Update the localStorage with the modified task data
