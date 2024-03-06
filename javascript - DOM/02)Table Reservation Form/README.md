@@ -29,10 +29,12 @@ Cyberdude Networks Pvt. Ltd Internship Project # 7 - **Table Reservation Form**.
 <br>
 <br>
 
-![Walkthrough demo](./public/images/Instagram-darktheme-home-page.jpeg)
+![Walkthrough demo](./public/images/table_reservation_form.jpeg)
 
+![Walkthrough demo](./public/images/validation.jpeg)
 
-![Walkthrough demo](./public/images/Instagram-darktheme-comments-section-page.jpeg)
+![Walkthrough demo](./public/images/review_details.jpeg)
+
 
 
 
