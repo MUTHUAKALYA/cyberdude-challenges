@@ -128,7 +128,7 @@ validateForm.onSuccess((e) => {
     // setting the newarray value to localStorage as json stringify form
     localStorage.setItem("bookingData", JSON.stringify(newBookingData));
   }
-  alert("Your table reservation has been confirmed");
+  alert("Your table has been reserved");
   getAllTaskData();
   formEl.reset();
 });
@@ -191,9 +191,7 @@ function getAllTaskData() {
                   <td class="py-2 px-4 border border-pink-800">${
                     formatMyDate(bookingData.date)
                   }</td>
-                  <td class="py-2 px-4 border border-pink-800">${
-                    bookingData.time
-                  }</td>
+                 
                   <td class="py-2 px-4 border border-pink-800">${
                     bookingData.numberOfGuests
                   }</td>
