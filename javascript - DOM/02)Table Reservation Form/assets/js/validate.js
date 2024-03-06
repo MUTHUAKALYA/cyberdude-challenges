@@ -10,7 +10,7 @@ const validateForm = new JustValidate(formEl, {
 });
 
 validateForm.addField(
-  "#fullname",
+  "#fullName",
   [
     {
       rule: "required",
@@ -28,7 +28,7 @@ validateForm.addField(
 );
 
 validateForm.addField(
-  "#phone-number",
+  "#phoneNumber",
   [
     {
       rule: "required",
@@ -62,7 +62,7 @@ validateForm.addField(
 );
 
 validateForm.addField(
-  "#reservation-date",
+  "#reservationDate",
   [
     {
       rule: "required",
@@ -72,7 +72,7 @@ validateForm.addField(
 );
 
 validateForm.addField(
-  "#reservation-time",
+  "#reservationTime",
   [
     {
       rule: "required",
@@ -82,7 +82,7 @@ validateForm.addField(
 );
 
 validateForm.addField(
-  "#guests",
+  "#numberOfGuests",
   [
     {
       rule: "required",
@@ -95,7 +95,7 @@ validateForm.addField(
 );
 
 validateForm.addField(
-  "#table",
+  "#tablePreference",
   [
     {
       rule: "required",
