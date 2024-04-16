@@ -10,13 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reserve Your Table</title>
     <!-- linking stylesheets -->
-    <script type="module" crossorigin src="./assets/index-48voU3FB.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-PMbJUqIU.css">
+    <script type="module" crossorigin src="./assets/index-NRrpjVqW.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-f5GUW4ob.css">
   </head>
 
   <body class="my-10 bg-sky-900">
     <section
-      class="bg-gray-200 shadow-2xl backdrop-blur-0 p-5 rounded-xl max-w-2xl mx-auto"
+      class="bg-gray-200 shadow-2xl backdrop-blur-0 p-8 rounded-xl max-w-2xl mx-auto"
     >
       <div class="flex justify-center items-center text-pink-800">
         <h1 class="font-black text-lg">Table Reservation Form</h1>
@@ -42,75 +42,89 @@
               required
               placeholder="Enter your full name"
               id="fullName"
-              class="bg-gray-50 p-2  w-full outline-none rounded-md"
+              class="bg-gray-50 p-2 w-full outline-none rounded-md"
             />
           </div>
           <div class="grid grid-cols-2 my-6 gap-x-4">
-           <div class="flex flex-col  space-y-2">
-            <label for="phoneNumber" class="font-semibold">Mobile Number</label>
-            <input
-              name="phoneNumber"
-              type="text"
-              required
-              placeholder="Enter your mobile number"
-              id="phoneNumber"
-              class="bg-gray-50 p-2  outline-none rounded-md"
-              
-            />
-           </div>
-           <div class="flex flex-col  space-y-2">
-            <label for="email" class="font-semibold">Email <Address></Address></label>
-            <input
-            name="email"
-            type="text"
-            required
-            placeholder="Enter your email address"
-            id="email"
-            class="bg-gray-50 p-2  outline-none rounded-md"
-          />
-           </div>
+            <div class="flex flex-col space-y-2">
+              <label for="phoneNumber" class="font-semibold"
+                >Mobile Number</label
+              >
+              <input
+                name="phoneNumber"
+                type="text"
+                required
+                placeholder="Enter your mobile number"
+                id="phoneNumber"
+                class="bg-gray-50 p-2 outline-none rounded-md"
+              />
+            </div>
+            <div class="flex flex-col space-y-2">
+              <label for="email" class="font-semibold"
+                >Email
+                <address></address
+              ></label>
+              <input
+                name="email"
+                type="text"
+                required
+                placeholder="Enter your email address"
+                id="email"
+                class="bg-gray-50 p-2 outline-none rounded-md"
+              />
+            </div>
           </div>
 
           <div class="grid grid-cols-2 my-6 gap-x-4">
-          <div class="flex flex-col space-y-2">
-            <label for="reservationDate" class="font-semibold">Date of Reservation</label>
-            <input
-            name="reservationDate"
-            type="date"
-            required
-            placeholder="Date of Reservation"
-            id="reservationDate"
-            class="bg-gray-50  p-2 rounded-md outline-none"
-          />
-          </div>
-          <div class="flex flex-col space-y-2">
-            <label for="reservationTime" class="font-semibold">Date of Reservation</label>
-            <input
-              name="reservationTime"
-              type="time"
-              required
-              placeholder="Time of Reservation"
-              id="reservationTime"
-              class="bg-gray-50 my-4 p-2 outline-none rounded-md"
-            />
-          </div>
-            
+            <div class="flex flex-col space-y-2">
+              <label for="reservationDate" class="font-semibold"
+                >Date of Reservation</label
+              >
+              <input
+                name="reservationDate"
+                type="date"
+                required
+                placeholder="Date of Reservation"
+                id="reservationDate"
+                class="bg-gray-50 p-2 rounded-md outline-none"
+              />
+            </div>
+            <div class="flex flex-col space-y-2">
+              <label for="reservationTime" class="font-semibold"
+                >Time of Reservation</label
+              >
+              <input
+                name="reservationTime"
+                type="time"
+                required
+                placeholder="Time of Reservation"
+                id="reservationTime"
+                class="bg-gray-50 my-4 p-2 outline-none rounded-md"
+              />
+            </div>
           </div>
           <div class="flex flex-col my-6 space-y-2">
-            <label for="numberOfGuests" class="font-semibold">Number of guests</label>
+            <label for="numberOfGuests" class="font-semibold"
+              >Number of guests</label
+            >
             <input
               name="numberOfGuests"
               type="text"
               required
               placeholder="Enter number of guests"
               id="numberOfGuests"
-              class="bg-gray-50 p-2  w-full outline-none rounded-md"
-              
+              class="bg-gray-50 p-2 w-full outline-none rounded-md"
             />
           </div>
           <div class="flex flex-col my-6 space-y-2">
-            <label for="tablePreference" class="font-semibold">Table preference</label>
-            <select name="tablePreference" id="tablePreference" class="bg-gray-50 p-2  w-full outline-none rounded-md">
+            <label for="tablePreference" class="font-semibold"
+              >Table preference</label
+            >
+            <select
+              name="tablePreference"
+              id="tablePreference"
+              class="bg-gray-50 p-2 w-full outline-none rounded-md"
+            >
               <option value="private Dinning Room">Private Dinning Room</option>
               <option value="General Table">General Table</option>
               <option value="Outdoor Table">Outdoor Table</option>
@@ -121,13 +135,15 @@
             </select>
           </div>
           <div class="flex flex-col my-6 space-y-2">
-            <label for="specialRequests" class="font-semibold">Special Requests</label>
+            <label for="specialRequests" class="font-semibold"
+              >Special Requests</label
+            >
             <textarea
               name="specialRequests"
               id="specialRequests"
               placeholder="If you have any special requests enter here..."
               rows="4"
-              class="bg-gray-50 p-2  w-full outline-none rounded-md"
+              class="bg-gray-50 p-2 w-full outline-none rounded-md"
             ></textarea>
           </div>
           <!-- <div class="flex gap-3 justify-evenly my-4">
