@@ -1,0 +1,160 @@
+[
+  {
+    "id": 1,
+    "name": "Esakki M",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/esakki2104prsnl",
+    "linkedIn": "https://www.linkedin.com/in/esakki-m/",
+    "Location": "India"
+  },
+  {
+    "id": 2,
+    "name": "Suriya K",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/suriyamassmsd",
+    "linkedIn": "https://www.linkedin.com/in/suriyakoo7/",
+    "Location": "India"
+  },
+  {
+    "id": 3,
+    "name": "Riyaz",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/riyaz1000",
+    "linkedIn": "https://www.linkedin.com/in/riyaz-h-63698321a/",
+    "Location": "India"
+  },
+  {
+    "id": 4,
+    "name": "Yogha Raj Dhayal N",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/yrd369",
+    "linkedIn": "https://www.linkedin.com/in/yogha-raj-dhayal/",
+    "Location": "India"
+  },
+  {
+    "id": 5,
+    "name": "Mohamed Mushkir",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/mushkir",
+    "linkedIn": "https://www.linkedin.com/in/mohamed-mushkir/",
+    "Location": "Sri Lanka"
+  },
+  {
+    "id": 6,
+    "name": "Bearcin Sweety",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/bearcin46",
+    "linkedIn": "https://www.linkedin.com/in/bearcin-sweety-33b354188/",
+    "Location": "India"
+  },
+  {
+    "id": 7,
+    "name": "Dinesh S",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/dineshdevelope",
+    "linkedIn": "https://www.linkedin.com/in/dinesh-s97/",
+    "Location": "India"
+  },
+  {
+    "id": 8,
+    "name": "Jeya Rosini. H",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/jeya-rosini",
+    "linkedIn": "https://www.linkedin.com/in/jeya-rosini-a4255421a/",
+    "Location": "India"
+  },
+  {
+    "id": 9,
+    "name": "Swetha Ramesh",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/swethadsalvatore",
+    "linkedIn": "https://www.linkedin.com/in/swetha-r-1516121b9/",
+    "instagram": "https://www.instagram.com/swetha_haashi/",
+    "Location": "India"
+  },
+  {
+    "id": 10,
+    "name": "Muhammed Shajid Shafee",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/mshajid",
+    "linkedIn": "https://www.linkedin.com/in/shajidshafee/",
+    "Location": "Sri Lanka"
+  },
+  {
+    "id": 11,
+    "name": "Muthu Akalya A",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/muthuakalya",
+    "linkedIn": "https://www.linkedin.com/in/muthuakalyaa/",
+    "Location": "India"
+  },
+  {
+    "id": 12,
+    "name": "Vijayavedhasekaran",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/vedhatech002",
+    "linkedIn": "https://www.linkedin.com/in/vijayavedhasekaran002/",
+    "Location": "India"
+  },
+  {
+    "id": 13,
+    "name": "Sudharsan (S)",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/danielace1",
+    "linkedIn": "https://www.linkedin.com/in/sudharsan-a-b40506290/",
+    "Location": "India"
+  },
+  {
+    "id": 14,
+    "name": "Khaja Sharif",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/sharif-22",
+    "linkedIn": "https://www.linkedin.com/in/khaja-sharif/",
+    "Location": "India"
+  },
+  {
+    "id": 15,
+    "name": "Gayathri H G",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/gayathrihg",
+    "linkedIn": "https://www.linkedin.com/in/gayathri-h-g-2151361ba/",
+    "Location": "India"
+  },
+  {
+    "id": 16,
+    "name": "KishoreKumar K",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/kishorekumar-kp",
+    "tasks": "https://github.com/kishorekumar-kp/cyberdude-challenges",
+    "projects": "https://github.com/kishorekumar-kp/cyberdude-intern-projects",
+    "linkedIn": "https://www.linkedin.com/in/gayathri-h-g-2151361ba/",
+    "Location": "India"
+  },
+  {
+    "id": 17,
+    "name": "Muthukumari M",
+    "role": "Full Stack Engineer",
+    "company": "CyberDude Networks Private Limited",
+    "github": "https://github.com/muthukumarimoorthi",
+    "tasks": "https://github.com/muthukumarimoorthi/cyberdude-challenges",
+    "projects": "https://github.com/muthukumarimoorthi/cyberdude-intern-projects",
+    "linkedIn": "https://www.linkedin.com/in/muthukumari-m-8a1415221/",
+    "Location": "India"
+  }
+]

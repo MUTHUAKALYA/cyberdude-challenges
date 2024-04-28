@@ -1,29 +1,35 @@
 import React, { useState,useEffect } from "react";
+import Navbar from "./Components/Navbar";
+
 
 const App = () => {
   const [datas, setDatas] = useState([]);
   useEffect(() => {
     async function fetchDatas() {
-     const fetchResult =  await fetch("http://localhost:3000/");
-      const quotesData = await fetchResult.json();
-
-      setDatas(quotesData);
+     const fetchResult =  await fetch("/api");
+      const internsData = await fetchResult.json();
+      setDatas(internsData);
+      console.log(datas)
     }
     fetchDatas();
-  }, []);
+  },[]);
+  
   return (
     <div>
-      <header className="bg-fuchsia-950 text-gray-200 font-black text-xl px-10 py-3">
-        <h1>Interns Details</h1>
-      </header>
-      {datas.map((data) => {
+     <Navbar/>
+
+      {datas.map((details,index)=>{
+        
+        
         return (
-          <div className="bg-white rounded p-10 shadow-2xl m-10" key={data.id}>
-            <span className="font-semibold text-lg">{data.Name}</span> {"- "}
-            <span>{data.role}</span>
+        <div className="bg-white grid grid-cols-4" key={index}>
+          <div className="bg-gray-300 rounded-md px-5 py-3 text-center max-w-sm" key={index}>
+            <span>{details.name}</span>
           </div>
-        );
+        </div>
+        )
       })}
+    
     </div>
   );
 };
