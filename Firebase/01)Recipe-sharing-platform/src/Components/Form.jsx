@@ -2,33 +2,25 @@ import { useForm } from "react-hook-form";
 import FormInput from "./FormInput";
 import Button from "./Button";
 import SelectInput from "./SelectInput";
-
-import { collection, addDoc, setDoc, doc } from "firebase/firestore"; 
-import { useEffect } from "react";
+import {  setDoc, doc } from "firebase/firestore";  
+import { collection, addDoc} from "firebase/firestore"; 
+// import { useEffect } from "react";
 import { db } from "../firebase"; 
 
 const Form = () => {
   const { register, handleSubmit, reset } = useForm();
 
   const validSubmit = (data) => {
-    // const querySnapshot = setDoc(doc(db,"foodrecipes",data.foodcategory),data)
-   console.log(data)
+  //   const querySnapshot = setDoc(doc(db,"foodrecipes",data.foodcategory),data)
+  //  console.log(data)
    alert(`Thank you for sharing ${data.recipename} recipe 😊`)
+   alert(`Your recipe has been added in ${data.foodcategory} foods `)
   const querySnapShot = addDoc(collection(db,data.foodcategory),data)
    reset();
   };
 
  
-  // useEffect(()=>{
-  //   async function settingDataIntoFirebase (){
-  //     await addDoc(collection(db,"categories"),{
-  //       firstname:"akalya",
-  //       lastname:"alagar",
-  //       bornedIn:2002
-  //     })
-  //   }
-  //   settingDataIntoFirebase()
-  // },[])
+ 
 
   return (
     <div className="bg-orange-300 bg-opacity-20 p-20 bg-newsletter-image h-[800px] bg-contain">
