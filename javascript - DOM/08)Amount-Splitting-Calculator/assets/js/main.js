@@ -23,7 +23,7 @@ console.log(amountInputEl);
 // getting addName button in add people input section
 const addNameEl = document.getElementById("addName");
 
-const chipsEl = document.getElementById("chips");
+// const chipsEl = document.getElementById("chips");
 // const iconEl =document.querySelector("button #icon")
 
 // const maindivEl = document.querySelector("div #maindiv")
@@ -78,7 +78,10 @@ const localstoragearrayel = [];
 formEl.addEventListener("submit", (e) => {
   e.preventDefault();
   window.alert("form submitted succesfully");
-  console.log(amountInputEl.value / addPeopleInputEl.value);
+  window.alert("Invidual share amount is" + amountInputEl.value / addPeopleInputEl.value);
+
+
+
 
   const formData = new FormData(formEl);
 
@@ -109,6 +112,7 @@ formEl.addEventListener("submit", (e) => {
   formEl.reset();
   window.location.reload()
 });
+
 function getSplitAmountData() {
   //getting all data from the localstorage
   const gettingDatafromLocal = localStorage.getItem("splitAmountData");
@@ -117,9 +121,9 @@ function getSplitAmountData() {
   console.log(gettingDatafromLocalArr);
    // if no task created
    if (gettingDatafromLocalArr && gettingDatafromLocalArr.length > 0) {
-    bookingListCard.style.display = "block";
+    amountDetailsCard.style.display = "block";
     // getting output task list in UI
-    const tableEl = document.getElementById("bookingListTable");
+    const tableEl = document.getElementById("amountdetailsTable");
 
     tableEl.innerHTML = "";
 
@@ -128,23 +132,23 @@ function getSplitAmountData() {
         console.log(gettingDatafromLocal)
         return `
         <tr>
-                  <td class="py-2 px-4  border border-darkPrimaryColor">${
+                  <td class="py-4 px-4  border border-darkPrimaryColor">${
                     index + 1
                   }</td>
                  
-                  <td class="py-2 px-4 border border-darkPrimaryColor">${
+                  <td class="py-4 px-4 border border-darkPrimaryColor">${
                     gettingDatafromLocal.nameoftheevent
                   }</td>
-                  <td class="py-2 px-4 border border-darkPrimaryColor">${
+                  <td class="py-4 px-4 border border-darkPrimaryColor">${
+                    gettingDatafromLocal.currency
+                  }</td>
+
+                  <td class="py-4 px-4 border border-darkPrimaryColor">${
                     gettingDatafromLocal.totalamount
                   }</td>
 
-                  <td class="py-2 px-4 border border-darkPrimaryColor">${
-                    gettingDatafromLocal.personname
-                  }</td>
-
-                  <td class="py-2 px-4 border border-darkPrimaryColor">${
-                    amountInputEl.value / addPeopleInputEl.value
+                  <td class="py-4 px-4 border border-darkPrimaryColor">${
+                    gettingDatafromLocal.totalamount / gettingDatafromLocal.noOfpeople
                   }</td>
 
                   <td class="py-2 px-4 border border-darkPrimaryColor"> <button type="submit" class=" deleteBtn px-3 py-2 rounded bg-darkPrimaryColor hover:bg-lightPrimaryColor hover:text-black text-gray-100 font-bold">Delete </button>
@@ -154,12 +158,12 @@ function getSplitAmountData() {
         `;
       })
       .join(" ");
-    console.log(finalData);
+    // console.log(finalData);
     tableEl.innerHTML += finalData;
   } else {
     // Remove the "taskData" key from localStorage if there are no tasks
     localStorage.removeItem("bookingData");
-    bookingListCard.style.display = "none";
+    amountDetailsCard.style.display = "none";
 
     console.log(" Not booked Yet ..!");
   }

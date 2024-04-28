@@ -169,22 +169,9 @@
           </div>
         </div>
 
-        <div class="flex flex-col my-10">
+        <div class="flex flex-col mb-10 mt-5">
           <label for="totalamount" class="mb-3 text-lg">Costs : </label>
-          <!-- <button
-            type="button"
-            class="py-2 flex justify-center space-x-3 border-2 text-gray-400 text-md"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path fill="currentColor" d="M11 13H5v-2h6V5h2v6h6v2h-6v6h-2z" />
-            </svg>
-            <span>Add cost</span>
-          </button> -->
+          
           <input
             type="number"
             name="totalamount"
@@ -194,6 +181,7 @@
             required
           />
         </div>
+        
 
         <div class="flex justify-center">
           <button
@@ -207,33 +195,34 @@
         </div>
       </form>
     </section>
+
     <div
-    class="my-16 bg-lightSecondaryColor shadow-2xl backdrop-blur-0 p-5 rounded-xl max-w-7xl mx-auto"
-    id="bookingListCard"
+    class="my-16 bg-lightSecondaryColor shadow-2xl backdrop-blur-0 p-16 rounded-xl max-w-7xl mx-auto"
+    id="amountDetailsCard"
   >
-    <h1 class="text-center text-xl font-bold text-lightPrimaryColor mb-5">
+    <h1 class="text-center text-2xl font-black text-lightPrimaryColor mb-10">
       Your amount details
     </h1>
     <table class="min-w-full border border-lightPrimaryColor text-center">
       <thead>
         <tr>
-          <th class="py-2 px-4 bg-white border border-darkPrimaryColor">S.No</th>
-          <th class="py-2 px-4 bg-white border border-darkPrimaryColor">
-            Name Of the Event
+          <th class="py-4 px-4 bg-white border border-darkPrimaryColor">S.No</th>
+          <th class="py-4 px-4 bg-white border border-darkPrimaryColor">
+            Name Of the event
           </th>
-          <th class="py-2 px-4 bg-white border border-darkPrimaryColor">
-            Total Amount
+          <th class="py-4 px-4 bg-white border border-darkPrimaryColor">
+            Currency
           </th>
-          <th class="py-2 px-4 bg-white border border-darkPrimaryColor">
-            Name Of the People
+          <th class="py-4 px-4 bg-white border border-darkPrimaryColor">
+            Total amount
           </th>
-          <th class="py-2 px-4 bg-white border border-darkPrimaryColor">
+          <th class="py-4 px-4 bg-white border border-darkPrimaryColor">
             Share of individual
           </th>
-          <th class="py-2 px-4 bg-white border border-darkPrimaryColor">Edit</th>
+          <th class="py-4 px-4 bg-white border border-darkPrimaryColor">Edit</th>
         </tr>
       </thead>
-      <tbody id="bookingListTable"></tbody>
+      <tbody id="amountdetailsTable"></tbody>
     </table>
   </div>
     <!-- adding source file -->
