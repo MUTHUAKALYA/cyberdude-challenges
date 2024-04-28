@@ -8,15 +8,39 @@ const Card = () => {
     console.log(e.target.value)
     setName(e.target.value)
    }
+   const [status,setStatus] = useState("status")
+   const handleStatus = (e)=>{
+    console.log(e.target.value)
+    setStatus(e.target.value)
+   }
+   const [date,setDate] = useState("date")
+   const handleDate = (e)=>{
+    console.log(e.target.value)
+    setDate(e.target.value)
+   }
+   const [clock,setClock] = useState("clock")
+   const handleClock = (e)=>{
+    console.log(e.target.value)
+    setClock(e.target.value)
+   }
    const [message,setMessage] = useState("Message")
    const handleMessage = (e)=>{
     console.log(e.target.value)
     setMessage(e.target.value)
    }
+   const [time,setTime] = useState("time")
+   const handleTime = (e)=>{
+    console.log(e.target.value)
+    setTime(e.target.value)
+   }
+
+
+
   return (
-    <div className=' space-x-4 m-20 grid grid-cols-2 bg-slate-500 shawdow box-shawdow-2xl backdrop-blur rounded-xl'>
-         <div>
-      <div className="bg-gray-200 max-w-lg p-10  space-y-5 rounded-lg ">
+    <div className=' space-x-4 m-20 grid grid-row  max-w-6xl bg-lightPrimary bg-opacity-10 shawdow box-shawdow-2xl backdrop-blur rounded-xl p-10 place-items-center'>
+    <div className='grid grid-cols-2 space-x-10 justify-between'>
+    <div>
+      <div className="bg-gray-200 max-w-lg p-10  space-y-5 rounded-lg  ">
         {/* clock input field */}
         <div className="flex flex-col space-y-2">
           <label htmlFor="clock" className="font-semibold">
@@ -27,6 +51,7 @@ const Card = () => {
             id="clock"
             placeholder="Enter Time"
             className="px-3 py-2 rounded-lg"
+            onChange={handleClock}
           />
         </div>
         {/* Battery percentage input field */}
@@ -50,6 +75,7 @@ const Card = () => {
             id="date"
             placeholder="Enter Time"
             className="px-3 py-2 rounded-lg"
+            onChange={handleDate}
           />
         </div>
         {/* direct message with */}
@@ -79,6 +105,7 @@ const Card = () => {
             className="px-3 py-2 rounded-lg outline-none "
             autoComplete="off"
             autoFocus
+            onChange={handleStatus}
           />
         </div>
         {/* time */}
@@ -93,6 +120,7 @@ const Card = () => {
             className="px-3 py-2 rounded-lg outline-none "
             autoComplete="off"
             autoFocus
+            onChange={handleTime}
           />
         </div>
         {/* Message */}
@@ -120,18 +148,19 @@ const Card = () => {
 
 
     {/* output card */}
-    <div className='max-w-2xl rounded-lg '>
+    <div className='max-w-lg rounded-lg '>
         {/* <img src="https://i.pinimg.com/originals/7d/0e/70/7d0e709fd2c2555e075ae8b49368fb74.jpg" alt="Whatsapp-doodle-image" className='max-h-screen w-[672px] object-cover'/> */}
 
         <div className='max-w-md  bg-gray-900 min-h-screen'>
         {/* header section of the screen */}
-        <div className='text-white flex items-center justify-between px-5 py-3'>
-            <span className='text-sm'>8:00 pm</span>
-            <div className='flex gap-x-1 items-center justify-center'>
+        <div className='text-white flex items-center justify-between px-5 py-3 gap-x-1'>
+            <span className='text-sm'>{clock ? clock : "time"}</span>
+            <div className='flex gap-x-2 items-center justify-center'>
             <span className='text-xs'>4G</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M17 4h3v16h-3zM5 14h3v6H5zm6-5h3v11h-3z"/></svg>
             
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256"><path fill="currentColor" d="M112 96v64a8 8 0 0 1-8 8H48a8 8 0 0 1-8-8V96a8 8 0 0 1 8-8h56a8 8 0 0 1 8 8m112-16v96a24 24 0 0 1-24 24H32a24 24 0 0 1-24-24V80a24 24 0 0 1 24-24h168a24 24 0 0 1 24 24m-16 0a8 8 0 0 0-8-8H32a8 8 0 0 0-8 8v96a8 8 0 0 0 8 8h168a8 8 0 0 0 8-8Zm40 8a8 8 0 0 0-8 8v64a8 8 0 0 0 16 0V96a8 8 0 0 0-8-8"/></svg>
+            <span className='text-xs'>85%</span>
             </div>
         </div>
         <hr className='border border-gray-700'/>
@@ -143,7 +172,7 @@ const Card = () => {
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Unknown_person.jpg/925px-Unknown_person.jpg" alt="unknown-person-image" className='w-[35px] h-[35px] object-cover rounded-full' />
             <div className='flex flex-col'>
                 <span className='text-sm'>{fullname ? fullname : "Name" }</span>
-                <span className='text-xs'>Online</span>
+                <span className='text-xs'>{status ? status : "Online"}</span>
             </div>
         </div>
         <div className='flex gap-x-3 items-center justify-center'>
@@ -155,14 +184,17 @@ const Card = () => {
         </div>
         {/* chat body */}
      <div className='flex flex-col items-center justify-center my-3 space-y-2'>
-     <span className='text-white text-xs bg-gray-800 px-5 py-2 rounded-full '>10 Feb 2024</span>
+     <span className='text-white text-xs bg-gray-800 px-5 py-2 rounded-full '>{date ? date : "10 Feb 2020"}</span>
      <span className='w-[90%] text-xs bg-gray-800 px-5 py-2 text-justify rounded-full text-yellow-500'>Messages and calls are end-to-end encrypted. No one outside of this chat, not even whatsapp , can read or listen to them. Tap to learn more.</span>
     
      </div>
      {/* chat content */}
-     <span className='text-white text-sm bg-gray-800 px-5 py-2 rounded-full mx-5'>{message ? message : "Type your Message"}</span>
-
+    <div className='text-sm bg-gray-800 px-5 py-2 rounded-full mx-5 w-[50%] flex justify-between items-center'>
+    <span className='text-white '>{message ? message : "Type your Message"}</span>
+    <span className='text-gray-300 text-left text-xs'>{time ? time : "time"}</span>
+    </div>
         </div>
+    </div>
     </div>
     </div>
   )

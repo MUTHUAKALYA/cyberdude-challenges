@@ -1,12 +1,12 @@
 const Footer = () => {
   return (
     <div>
-      <div className=" lg:mx-0 p-4 text-[11px] text-center sm:text-md text-sm text-white bg-gradient-to-r bg-darkPrimary sm:flex justify-center gap-x-4  items-center">
+      <div className=" lg:mx-0 p-6 text-center sm:text-md  text-white bg-gradient-to-r bg-darkPrimary sm:flex justify-center gap-x-4  items-center font-medium ">
         <div>
           <p>
             Designed by{" "}
             <span class="text-white font-semibold underline">
-              Muthu Akalya{" "}
+             <a href="https://github.com/MUTHUAKALYA/cyberdude-challenges/tree/main/React-JS/02)JSON%20Portfolio" target="_blank"> Muthu Akalya{" "}</a>
             </span>{" "}
             for CyberDude Networks Internship programme
           </p>
