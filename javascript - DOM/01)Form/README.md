@@ -17,13 +17,28 @@ Souvenir Details Form
 
 ## Description
 
-Souvenir Details form is a web application that utilizes JavaScript to dynamically manipulate the Document Object Model (DOM) for creating an interactive and user-friendly form. 
+Souvenir Details form is a web application that utilizes JavaScript to dynamically manipulate the Document Object Model (DOM) for creating an interactive and user-friendly form.
 
 ## Demo
 
-[Live Demo](https://github.com/MUTHUAKALYA/cyberdude-challenges)
+1. Copy the following link and paste it on a browser.
 
+✨**Live Link is Here**:
 
+```
+https://muthuakalya.github.io/cyberdude-challenges/javascript%20-%20DOM/01)Form/dist/
+```
+
+<br>
+<br>
+
+![Walkthrough demo](./assets/public/images/form.png)
+
+![Walkthrough demo](./assets/public/images/validation.png)
+
+![Walkthrough demo](./assets/public/images/confirmation.png)
+
+![Walkthrough demo](./assets/public/images/thankyou.png)
 
 ## Technologies Used
 
